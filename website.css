@@ -1,0 +1,144 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*FIRST NAVIGATION BAR ----------------------*/
+
+ul.first_navbar {
+  list-style-type: none;
+  background-color: #fff;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+.first_navbar li {
+  float: left;
+  height: 65px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.first_navbar li a {
+  display: block;
+  text-decoration: none;
+  padding: 10px 16px;
+  color: darkslategrey;
+  text-align: center;
+}
+.rightnav {
+  margin-right: 10px;
+}
+
+.first_navbar li a:hover:not(.rightnav) {
+  color: #fff;
+  background-color: green;
+  padding: 25px;
+}
+
+.logo:hover {
+  background-color: #fff !important;
+}
+
+li.rightnav a:hover {
+  background-color: rgb(237, 227, 227) !important;
+  padding: 10px 16px !important;
+  border-radius: 25px;
+  color: #3d3c3c !important;
+}
+
+li.upgrade a:hover {
+  background-color: rgb(129, 55, 194) !important;
+  color: #fff !important;
+}
+
+/*SECOND NAVIGATION BAR ----------------------*/
+
+ul.second_navbar {
+  list-style-type: none;
+  background-color: #3d3c3c;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+
+ul.second_navbar li {
+  float: left;
+}
+
+ul.second_navbar li a {
+  display: block;
+  text-decoration: none;
+  color: antiquewhite;
+  padding: 10px 18px;
+}
+
+ul.second_navbar li:hover:not(.active) {
+  text-decoration: none;
+  background-color: #000;
+}
+
+.active {
+  background-color: green;
+}
+
+/*REMAINING CONTENT -------------*/
+
+#content {
+  height: 200px;
+  margin-top: 150px;
+}
+
+#ltc {
+  font-size: 60px;
+  margin: 40px;
+  color: white;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  color: #ffc0c7;
+  font-size: 23px;
+  font-weight: 600;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  padding: 10px 50px;
+  text-align: left;
+  margin-left: 0;
+  width: 250px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-style: none;
+  border-color: white;
+  height: 20px;
+}
+
+input::placeholder {
+  color: grey;
+  font-size: 16px;
+  padding-left: -10px;
+}
+
+button {
+  background-color: green;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 40px;
+  border-color: green;
+  border-style: none;
+  width: 70px;
+  margin-left: -10px;
+}
+
+#link {
+  color: white;
+  font-size: 23px;
+}
